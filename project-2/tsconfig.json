@@ -1,0 +1,10 @@
+{
+  "extends": "..",
+  "include": ["*"],
+  "references": [{ "path": "../project-1" }],
+  "compilerOptions": {
+    "rootDir": "..",
+    "outDir": "../out",
+    "strict": true
+  }
+}

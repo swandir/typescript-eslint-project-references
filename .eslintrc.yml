@@ -1,0 +1,11 @@
+root: true
+parser: "@typescript-eslint/parser"
+parserOptions:
+  project: "./**/tsconfig*.json"
+  # EXPERIMENTAL_useSourceOfProjectReferenceRedirect: true
+plugins:
+  - "@typescript-eslint"
+rules:
+  "@typescript-eslint/no-unnecessary-condition": error
+overrides:
+  - files: "project-2/*.ts"
